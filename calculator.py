@@ -27,13 +27,9 @@ def calculate(num1, num2, operation):
 def main():
     # Set page config at the very beginning of the script
     st.set_page_config(
-    page_title="Basic Calculator", 
-    page_icon="🧮", 
-    layout="wide",                       
-    primaryColor="orange",
-        backgroundColor="#F0F0F5",
-        secondaryBackgroundColor="#E0E0E0",
-        textColor="black")
+    page_title="BASIC CALCULATOR",  
+    page_icon="🧮",                  
+    layout="wide")
     st.title(":rainbow[Basic Calculator]")
     st.write("""This application is designed to perform fundamental arithmetic operations.
              This app is perfect for quick and simple calculations in an interactive format!""")
@@ -72,7 +68,7 @@ def main():
             # Print output
             if st.button(":green[**Calculate**]"):
                 result = calculate(num1, num2, operation)
-                st.markdown(f"<h2 style='font-size: 20px;background-color:purple; color: white; padding: 10px;'>The result of {num1} {operator} {num2} is: {result}</h2>", unsafe_allow_html=True)
+                st.markdown(f"<h2 style='font-size: 20px;background-color:green; color: white; padding: 10px;'>The result of {num1} {operator} {num2} is: {result}</h2>", unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
