@@ -25,7 +25,6 @@ def calculate(num1, num2, operation):
 
 # Streamlit app
 def main():
-    # Set page config at the very beginning of the script
     st.set_page_config(
     page_title="BASIC CALCULATOR",  
     page_icon="🧮",                  
