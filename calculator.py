@@ -25,7 +25,7 @@ def calculate(num1, num2, operation):
 #Streamlit app
 def main():
     st.set_page_config(layout="wide")
-    st.title(":purple[Basic Calculator]")
+    st.title(":rainbow[Basic Calculator]")
     st.write("""This application is designed to perform fundamental arithmetic operations.
              This app is perfect for quick and simple calculations in an interactive format!""")
     a,b=st.columns(2)
